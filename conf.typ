@@ -47,11 +47,11 @@
        str(info.title))
 
   v(1em)
-  text(size: 1.25em,
+  text(size: 1em,
        str(info.author) + "\n" + get_course_speciality(int(info.group)))
 
   set align(center)
-  text(size: 1.25em,
+  text(size: 1em,
        str(info.city) + ", " + str(info.year))
 }
 
