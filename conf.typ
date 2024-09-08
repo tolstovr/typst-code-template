@@ -59,7 +59,7 @@
 #let make_toc(
   info: ()
 ) = {
-  outline(indent: 0%,
+  outline(indent: 2%,
           title: [Содержание])
   pagebreak(weak: true)
 }
