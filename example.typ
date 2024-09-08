@@ -30,3 +30,6 @@
 
 == Лигатуры
 Да, я их выключил. Теперь будет так: #raw("=>").
+
+= Ссылка
+Да, ссылка теперь такая: #link("https://ru.w3docs.com/uchebnik-html/tablitsa-html-tegov.html")[w3docs]

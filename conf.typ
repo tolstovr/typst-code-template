@@ -84,6 +84,10 @@
     }
     code
   }
+
+  show link: set text(
+    fill: gradient.linear(rgb("#6ec080"), rgb("#1b7ab4"), angle: 45deg)
+  )
   
   set text(
     font: "Cambria",
