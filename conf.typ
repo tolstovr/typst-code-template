@@ -98,5 +98,13 @@
   make_titlepage(info: meta)
   make_toc(info: toc)
   
+  set page(footer: context [
+    #h(1fr)
+    #counter(page).display(
+      "1"
+    )
+  ])
+  set page(numbering: "1")
+  
   content
 }
